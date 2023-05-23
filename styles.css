@@ -27,12 +27,17 @@ img {
     margin-left: auto;
 } */
 
+body {
+    background-color: black;
+}
 .container{
-    margin: 0 auto;
-   height: 300px;
-   width: 200px;
+    margin: 60px auto auto;
+    background-color: white;
+   height: 525px;
+   width: 300px;
    border: 1px solid black;
    }
+
    .header{
        height: 50px;
        width: 100%;
@@ -46,4 +51,14 @@ img {
    }
    p {
        font-size: small;
+   }
+
+   img {
+    height:350px;
+    width: 300px;
+    object-fit: cover;
+   }
+
+   h5 {
+    display: flex;
    }
